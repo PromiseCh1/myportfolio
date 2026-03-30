@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Promise | Web Developer Portfolio</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+
+
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Promise</span><br> BCA Student</h1>
+
+                <a href="#contact" class="button">Contact</a>
+
+                <!-- Social Icons moved INSIDE home__data -->
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/promise-chaudhary-276b63274" class="home__social-icon"
+                        target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/PromiseCh1" class="home__social-icon" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/promisech_1" class="home__social-icon" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60"
+                            href="https://i.postimg.cc/t4fsvm16/profile-without-background2.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class=" bd-grid">
+                <div class="about__content">
+                    <h2 class="about__subtitle">I'm Promise</h2>
+                    <p class="about__text">BCA Student specializing in <span class="highlight">Networking &
+                            Cybersecurity</span></p>
+
+                    <div class="about__details">
+                        <div class="about__detail-card">
+                            <div class="about__detail-header">
+                                <i class='bx bx-network-chart about__detail-icon'></i>
+                                <h3>Networking & Security</h3>
+                            </div>
+                            <ul class="about__detail-list">
+                                <li>Network architecture and protocols</li>
+                                <li>Secure system design principles</li>
+                                <li>CCNA concepts: IP addressing, subnetting</li>
+                                <li>Routing, switching & network troubleshooting</li>
+                            </ul>
+                        </div>
+
+                        <div class="about__detail-card">
+                            <div class="about__detail-header">
+                                <i class='bx bx-code about__detail-icon'></i>
+                                <h3>Programming</h3>
+                            </div>
+                            <ul class="about__detail-list">
+                                <li>Java (OOP, Collections, Multithreading)</li>
+                                <li>Exception handling and File I/O</li>
+                                <li>JDBC and database connectivity</li>
+                                <li>Logical thinking and backend processes</li>
+                            </ul>
+                        </div>
+
+                        <div class="about__detail-card">
+                            <div class="about__detail-header">
+                                <i class='bx bx-shield about__detail-icon'></i>
+                                <h3>Security Focus</h3>
+                            </div>
+                            <ul class="about__detail-list">
+                                <li>Network security & access control</li>
+                                <li>Building secure, reliable systems</li>
+                                <li>Hands-on with Cisco Packet Tracer</li>
+                                <li>Security-focused project development</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="about__tools">
+                        <span class="about__tool-tag">🛡️ Network Security</span>
+                        <span class="about__tool-tag">🔧 Packet Tracer</span>
+                        <span class="about__tool-tag">☕ Java</span>
+                        <span class="about__tool-tag">🌐 CCNA Concepts</span>
+                        <span class="about__tool-tag">🔒 Cybersecurity</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="bd-grid">
+                <!-- Main Skills - Featured -->
+                <div class="skills__featured">
+                    <div class="skills__featured-header">
+                        <i class='bx bx-star'></i>
+                        <span>Core Competencies</span>
+                    </div>
+                    <div class="skills__featured-grid">
+                        <div class="skills__featured-card">
+                            <div class="skills__featured-icon">
+                                <i class='bx bx-network-chart'></i>
+                            </div>
+                            <div class="skills__featured-info">
+                                <h3>Networking (CCNA Track)</h3>
+                                <p>IP Addressing · Subnetting · Routing & Switching · VLAN · Network Troubleshooting ·
+                                    Cisco Packet Tracer</p>
+                            </div>
+                        </div>
+                        <div class="skills__featured-card">
+                            <div class="skills__featured-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skills__featured-info">
+                                <h3>Java Development</h3>
+                                <p>OOP · Collections · Multithreading · Exception Handling · File I/O · JDBC</p>
+                            </div>
+                        </div>
+                        <div class="skills__featured-card">
+                            <div class="skills__featured-icon">
+                                <i class='bx bx-code-curly'></i>
+                            </div>
+                            <div class="skills__featured-info">
+                                <h3>Network Programming</h3>
+                                <p>Socket Programming (TCP/UDP) · Client-Server Architecture · Protocol Implementation
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Skills - Single Container -->
+                <div class="skills__additional">
+                    <div class="skills__additional-header">
+                        <i class='bx bx-cog'></i>
+                        <span>Additional Skills</span>
+                    </div>
+                    <div class="skills__additional-grid">
+                        <!-- C Programming -->
+                        <div class="skills__additional-item">
+                            <div class="skills__additional-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skills__additional-name">C Programming</span>
+                            <span class="skill-level intermediate">Intermediate</span>
+                        </div>
+
+                        <!-- MySQL Database -->
+                        <div class="skills__additional-item">
+                            <div class="skills__additional-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skills__additional-name">MySQL / SQL</span>
+                            <span class="skill-level intermediate">Intermediate</span>
+                        </div>
+
+                        <!-- HTML/CSS -->
+                        <div class="skills__additional-item">
+                            <div class="skills__additional-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span class="skills__additional-name">HTML5 / CSS3</span>
+                            <span class="skill-level intermediate">Intermediate</span>
+                        </div>
+
+                        <!-- JavaScript -->
+                        <div class="skills__additional-item">
+                            <div class="skills__additional-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span class="skills__additional-name">JavaScript</span>
+                            <span class="skill-level intermediate">Intermediate</span>
+                        </div>
+
+                        <!-- PHP -->
+                        <div class="skills__additional-item">
+                            <div class="skills__additional-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <span class="skills__additional-name">PHP</span>
+                            <span class="skill-level intermediate">Intermediate</span>
+                        </div>
+
+                        <!-- Git & GitHub -->
+                        <div class="skills__additional-item">
+                            <div class="skills__additional-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span class="skills__additional-name">Git & GitHub</span>
+                            <span class="skill-level intermediate">Intermediate</span>
+                        </div>
+
+                        <!-- Cisco Packet Tracer -->
+                        <div class="skills__additional-item">
+                            <div class="skills__additional-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <span class="skills__additional-name">Cisco Packet Tracer</span>
+                            <span class="skill-level advanced">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__note">
+                    <i class='bx bx-certification'></i>
+                    <span>Actively pursuing CCNA certification with hands-on experience in network programming and
+                        Java-based networking applications.</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== PROJECTS =====-->
+        <section class="projects section" id="work">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="projects__container">
+                <!-- 
+            ============================================
+            PROJECT CARD TEMPLATE
+            ============================================
+            To add a new project, copy this entire card block:
+            
+            <div class="projects__card" data-project-id="project3">
+                <div class="projects__image-wrapper">
+                    <img src="YOUR_IMAGE_URL_HERE" alt="Project Title" class="projects__image">
+                    <div class="projects__overlay"></div>
+                </div>
+                <div class="projects__content">
+                    <h3 class="projects__title">Project Title Here</h3>
+                    <p class="projects__description">
+                        Short description of the project (2-3 lines)
+                    </p>
+                    <div class="projects__tech-stack">
+                        <span class="projects__tech-tag">Tech 1</span>
+                        <span class="projects__tech-tag">Tech 2</span>
+                        <span class="projects__tech-tag">Tech 3</span>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="#" class="projects__btn projects__btn-demo" target="_blank">
+                            <i class='bx bx-link-external'></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="projects__btn projects__btn-github" target="_blank">
+                            <i class='bx bxl-github'></i>
+                            GitHub Code
+                        </a>
+                        <button class="projects__btn projects__btn-learn" onclick="openProjectModal('project3')">
+                            <i class='bx bx-info-circle'></i>
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+            ============================================
+        -->
+
+                <!-- Project 1: Smart Parking Management System -->
+                <div class="projects__card" data-project-id="project1">
+                    <div class="projects__image-wrapper">
+                        <img src="assets/photos/project1/parking-main.png" alt="ParkMate - Smart Parking System"
+                            class="projects__image">
+                        <div class="projects__overlay"></div>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">ParkMate - Smart Parking System</h3>
+                        <p class="projects__description">
+                            Three-tier parking solution with real-time slot tracking, Dijkstra's algorithm for optimal
+                            pathfinding,
+                            QR-based entry/exit, and eSewa payment integration.
+                        </p>
+                        <div class="projects__tech-stack">
+                            <span class="projects__tech-tag">PHP</span>
+                            <span class="projects__tech-tag">MySQL</span>
+                            <span class="projects__tech-tag">JavaScript</span>
+                            <span class="projects__tech-tag">Leaflet.js</span>
+                            <span class="projects__tech-tag">Dijkstra's Algorithm</span>
+                            <span class="projects__tech-tag">eSewa API</span>
+                        </div>
+                        <div class="projects__buttons">
+                            <a href="https://sps.free.nf/SPS/home.php" class="projects__btn projects__btn-demo"
+                                target="_blank">
+                                <i class='bx bx-link-external'></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="projects__btn projects__btn-github" target="_blank">
+                                <i class='bx bxl-github'></i>
+                                GitHub Code
+                            </a>
+                            <button class="projects__btn projects__btn-learn" onclick="openProjectModal('project1')">
+                                <i class='bx bx-info-circle'></i>
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Gym Management System -->
+                <div class="projects__card" data-project-id="project2">
+                    <div class="projects__image-wrapper">
+                        <img src="assets/photos/project2/gym-main.png" alt="Secure Gym Management System"
+                            class="projects__image">
+                        <div class="projects__overlay"></div>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__title">PowerHouse – Gym Management System</h3>
+                        <p class="projects__description">
+                            A role based secure web system implementing authentication, access control, input
+                            validation,
+                            and session security to protect user and admin operations.
+                        </p>
+                        <div class="projects__tech-stack">
+                            <span class="projects__tech-tag">PHP</span>
+                            <span class="projects__tech-tag">MySQL</span>
+                            <span class="projects__tech-tag">JavaScript</span>
+                            <span class="projects__tech-tag">HTML/CSS</span>
+                            <span class="projects__tech-tag">PHPMailer</span>
+                        </div>
+                        <div class="projects__buttons">
+                            <a href="https://powerhouse.free.nf/" class="projects__btn projects__btn-demo"
+                                target="_blank">
+                                <i class='bx bx-link-external'></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="projects__btn projects__btn-github" target="_blank">
+                                <i class='bx bxl-github'></i>
+                                GitHub Code
+                            </a>
+                            <button class="projects__btn projects__btn-learn" onclick="openProjectModal('project2')">
+                                <i class='bx bx-info-circle'></i>
+                                Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- ===== PROJECT MODAL ===== -->
+        <div id="projectModal" class="projects__modal">
+            <div class="projects__modal-content">
+                <div class="projects__modal-header">
+                    <h2 id="modalTitle">Project Title</h2>
+                    <span class="projects__modal-close" onclick="closeProjectModal()">&times;</span>
+                </div>
+                <div class="projects__modal-body">
+                    <!-- Gallery Section -->
+                    <div class="projects__modal-gallery">
+                        <div class="projects__modal-main-image">
+                            <img id="modalMainImage" src="" alt="Project Main Image">
+                        </div>
+                        <div class="projects__modal-thumbnails" id="modalThumbnails">
+                            <!-- Thumbnails will be dynamically added -->
+                        </div>
+                    </div>
+
+                    <!-- Description Section -->
+                    <div class="projects__modal-info">
+                        <div class="projects__modal-description">
+                            <h3>Project Overview</h3>
+                            <p id="modalFullDescription">Detailed project description goes here.</p>
+                        </div>
+
+                        <div class="projects__modal-details">
+                            <h3>Key Features</h3>
+                            <ul id="modalFeatures">
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                            </ul>
+                        </div>
+
+                        <div class="projects__modal-tech">
+                            <h3>Technologies Used</h3>
+                            <div id="modalTechStack" class="projects__modal-tech-tags"></div>
+                        </div>
+
+                        <div class="projects__modal-links">
+                            <a href="#" id="modalLiveDemo" class="projects__btn projects__btn-demo" target="_blank">
+                                <i class='bx bx-link-external'></i>
+                                Live Demo
+                            </a>
+                            <a href="#" id="modalGithub" class="projects__btn projects__btn-github" target="_blank">
+                                <i class='bx bxl-github'></i>
+                                GitHub Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="bd-grid">
+                <div class="contact__content">
+                    <p class="contact__intro">
+                        If you'd like to connect regarding opportunities, projects, or collaboration,
+                        feel free to reach out.
+                    </p>
+
+                    <div class="contact__grid">
+                        <div class="contact__card">
+                            <div class="contact__icon-wrapper">
+                                <i class='bx bx-envelope'></i>
+                            </div>
+                            <h3 class="contact__label">Email</h3>
+                            <a href="mailto:promisejerry543@gmail.com" class="contact__value">
+                                promisejerry543@gmail.com
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__icon-wrapper">
+                                <i class='bx bxl-linkedin'></i>
+                            </div>
+                            <h3 class="contact__label">LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/promise-chaudhary-276b63274" target="_blank"
+                                class="contact__value">
+                                LinkedIn Profile
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__icon-wrapper">
+                                <i class='bx bxl-github'></i>
+                            </div>
+                            <h3 class="contact__label">GitHub</h3>
+                            <a href="https://github.com/PromiseCh1" target="_blank" class="contact__value">
+                                Github Profile
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__icon-wrapper">
+                                <i class='bx bx-map'></i>
+                            </div>
+                            <h3 class="contact__label">Location</h3>
+                            <span class="contact__value">Kathmandu, Nepal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__divider"></div>
+        <p class="footer__copy">&#169; 2024 Promise Chaudhary. All rights reserved.</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
